@@ -41,9 +41,9 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 - 📐 A importância do **design prototipado** utilizando ferramentas como o Figma para visualização e planejamento do projeto.
 - 📱 Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas.
 
-<div aling="center">
+<div align="center">
 <a href="https://kauemonteiro09.github.io/alura-portfolio-2/">
-  <img src="https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04" alt="Imagem do projeto" height="900px">
+  <img src="https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04" alt="Imagem do projeto" height="600px">
 </a>
 </div>
 

@@ -1,6 +1,6 @@
-# Projeto HTML e CSS - Cabeçalho, Footer e Variáveis CSS
+# Projeto HTML e CSS - Cabeçalho, Footer, Variáveis CSS e Trabalhando com Responsividade
 
-Este repositório contém um projeto desenvolvido durante o curso de **HTML e CSS**, com foco em boas práticas para a criação de cabeçalhos e footers, além da utilização de variáveis CSS para manter o código sustentável e organizado. O objetivo é entender o dia a dia de um desenvolvedor front-end de forma prática.
+Este repositório contém um projeto desenvolvido durante o curso de **HTML e CSS - Cabeçalho, Footer e Variáveis CSS** e o curso de **HTML e CSS: Trabalhando com Responsividade e Publicação de Projetos**. O foco é em boas práticas para a criação de cabeçalhos e footers, utilização de variáveis CSS, responsividade e publicação de projetos na web.
 
 ## Sobre o Projeto
 
@@ -28,9 +28,16 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 - A criação de componentes de layout, como cabeçalhos e footers, que são fundamentais para a navegação e usabilidade do site.
 - A aplicação de **pseudo classes** para adicionar interatividade e melhorar a experiência do usuário.
 - A importância do **design prototipado** utilizando ferramentas como o Figma para visualização e planejamento do projeto.
+- Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas.
 
 ## Conclusão
 
 Este curso e projeto proporcionaram uma visão prática do dia a dia de um desenvolvedor front-end, focando na criação de layouts eficientes e no uso de técnicas modernas de programação.
+
+## Créditos
+
+Este projeto foi desenvolvido como parte dos cursos oferecidos pela **Alura**, que proporciona uma excelente formação em desenvolvimento web.
+
+
 
 ![image](https://github.com/user-attachments/assets/98c4ff7d-f49a-443f-89c6-ce11d2877d21)

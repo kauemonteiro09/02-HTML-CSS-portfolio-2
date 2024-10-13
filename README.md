@@ -41,7 +41,9 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 - 📐 A importância do **design prototipado** utilizando ferramentas como o Figma para visualização e planejamento do projeto.
 - 📱 Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas.
 
-[![image](https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04)](https://kauemonteiro09.github.io/alura-portfolio-2/)
+<a href="https://kauemonteiro09.github.io/alura-portfolio-2/">
+  <img src="https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04" alt="Imagem do projeto" width="500px">
+</a>
 
 
 ## 📜 Certificados
@@ -50,7 +52,7 @@ Aqui estão alguns dos meus certificados conquistados durante o curso na **Alura
 
 <div align="center">
   <a href="https://cursos.alura.com.br/user/kauemonteiro09/course/html-css-cabecalho-footer-variaveis-css/certificate">
-    <img src="(https://github.com/user-attachments/assets/283cea11-b0ce-45aa-a007-2d20cfaa5ba4" alt="Certificado 1" width="500px">
+    <img src="https://github.com/user-attachments/assets/283cea11-b0ce-45aa-a007-2d20cfaa5ba4" alt="Certificado 1" width="500px">
 
   </a>
   <br>

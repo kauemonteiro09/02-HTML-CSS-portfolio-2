@@ -39,7 +39,8 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 - 🧩 A criação de componentes de layout, como cabeçalhos e footers, que são fundamentais para a navegação e usabilidade do site.
 - 🎭 A aplicação de **pseudo classes** para adicionar interatividade e melhorar a experiência do usuário.
 - 📐 A importância do **design prototipado** utilizando ferramentas como o Figma para visualização e planejamento do projeto.
-- 📱 Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas.
+- 📱 Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas
+
 
 <div align="center">
 <a href="https://kauemonteiro09.github.io/alura-portfolio-2/">

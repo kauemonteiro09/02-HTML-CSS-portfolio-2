@@ -42,7 +42,7 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 - 📱 Como tornar um site **responsivo** e a diferença entre medidas absolutas e relativas.
 
 <a href="https://kauemonteiro09.github.io/alura-portfolio-2/">
-  <img src="https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04" alt="Imagem do projeto" width="500px">
+  <img src="https://github.com/user-attachments/assets/b1ea4c51-0400-46fb-919c-76d9c1378f04" alt="Imagem do projeto" height="400px">
 </a>
 
 
@@ -50,13 +50,12 @@ Este projeto ajudou a consolidar conhecimentos sobre:
 
 Aqui estão alguns dos meus certificados conquistados durante o curso na **Alura**:
 
-<div align="center">
+<div align="left">
   <a href="https://cursos.alura.com.br/user/kauemonteiro09/course/html-css-cabecalho-footer-variaveis-css/certificate">
     <img src="https://github.com/user-attachments/assets/283cea11-b0ce-45aa-a007-2d20cfaa5ba4" alt="Certificado 1" width="500px">
 
   </a>
-  <br>
-  <a href="https://cursos.alura.com.br/user/kauemonteiro09/course/html-css-responsividade-publicacao-projetos/certificate">
+   <a href="https://cursos.alura.com.br/user/kauemonteiro09/course/html-css-responsividade-publicacao-projetos/certificate">
     <img src="https://github.com/user-attachments/assets/547a9643-388c-43a5-91cb-811a4e55553a" alt="Certificado 2" width="500px">
   </a>
 </div>

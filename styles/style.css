@@ -16,18 +16,25 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  height: 100%; /* Garante que o body ocupe 100% da altura da janela */
+}
+
+body {
+  display: flex; /* Ativa o Flexbox no body */
+  flex-direction: column; /* Organiza os elementos em coluna */
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
 }
 
 .cabecalho {
-  padding: 2% 0 0 15%;
+  padding: 2% 0 0 5%;
 }
 
 .cabecalho__menu {
   display: flex;
-  gap: 80px;
+  gap: 2.5rem;
 }
 
 .cabecalho__menu__link {
@@ -39,25 +46,26 @@ body {
 }
 
 .apresentacao {
+  flex: 1; /* Permite que a seção de apresentação ocupe o espaço restante */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5% 15%;
+  padding: 5%;
   gap: 5%;
+  width: 100%;
 }
 
 .apresentacao__conteudo {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .apresentacao__conteudo__titulo {
   font-size: 2.25rem;
   font-family: var(--fonte-primaria);
   font-weight: 400;
-  font-style: normal;
 }
 
 .titulo-destaque {
@@ -68,7 +76,6 @@ body {
   font-size: 1.5rem;
   font-family: var(--fonte-secundaria);
   font-weight: 400;
-  font-style: normal;
 }
 
 .apresentacao__links {
@@ -76,7 +83,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .aprensentacao__links__subtitulo {
@@ -89,17 +96,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 4%;
   color: var(--cor-secundaria);
   font-family: var(--fonte-secundaria);
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  width: 50%;
-  border: 2px solid var(--cor-terciaria);
-  border-radius: 8px;
+  width: 60%;
+  border: 0.2rem solid var(--cor-terciaria);
+  border-radius: 0.5rem;
   font-size: 1.5rem;
-  padding: 16px;
+  padding: 2%;
 }
 
 .apresentacao__links__nav:hover {
@@ -108,13 +115,17 @@ body {
 
 .apresentacao__img {
   width: 50%;
+  height: auto;
 }
 
 .rodape {
   background-color: var(--cor-terciaria);
-  padding: 24px;
-  align-content: center;
-  height: 80px;
+  padding: 1.5rem;
+  height: 5rem; /* Altura do rodapé em rem */
+  width: 100%; /* Faz o rodapé ocupar 100% da largura da tela */
+  display: flex; /* Ativa o Flexbox no rodapé */
+  justify-content: center; /* Centraliza o texto no rodapé */
+  align-items: center; /* Centraliza verticalmente o texto no rodapé */
 }
 
 .rodape__texto {
@@ -123,4 +134,60 @@ body {
   text-align: center;
   font-weight: 400;
   font-family: var(--fonte-secundaria);
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 5%;
+  }
+  .cabecalho__menu {
+    justify-content: center;
+  }
+  .apresentacao {
+    flex-direction: column-reverse; /* Garante que a apresentação se ajuste bem */
+    gap: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto; /* Adapta a largura em telas menores */
+  }
+
+  .apresentacao__img {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --tamanho-fonte-cabecalho: 2.5rem; /* Aumente o tamanho da fonte para cabeçalho */
+    --tamanho-fonte-titulo: 4rem; /* Aumente o tamanho da fonte para o título */
+    --tamanho-fonte-texto: 2.5rem; /* Aumente o tamanho da fonte para o texto */
+    --tamanho-fonte-link: 2.5rem; /* Aumente o tamanho da fonte para links */
+    --tamanho-fonte-subtitulo: 2.5rem; /* Aumente o tamanho da fonte para o subtítulo */
+    --tamanho-fonte-rodape: 2.5rem; /* Aumente o tamanho da fonte para o rodapé */
+  }
+
+  .cabecalho__menu__link {
+    font-size: var(--tamanho-fonte-cabecalho);
+  }
+
+  .apresentacao__conteudo__titulo {
+    font-size: var(--tamanho-fonte-titulo);
+  }
+
+  .apresentacao__conteudo__texto {
+    font-size: var(--tamanho-fonte-texto);
+  }
+
+  .apresentacao__links__nav {
+    font-size: var(--tamanho-fonte-link);
+  }
+
+  .aprensentacao__links__subtitulo {
+    font-size: var(--tamanho-fonte-subtitulo);
+  }
+
+  .rodape__texto {
+    font-size: var(--tamanho-fonte-rodape);
+  }
 }

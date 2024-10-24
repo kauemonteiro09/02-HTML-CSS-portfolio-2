@@ -21,7 +21,7 @@ Os principais tópicos abordados incluem:
 - 📱 **Responsividade**: Aprendi a tornar o site responsivo para diferentes telas, utilizando **media queries** para adaptar o layout a diferentes dispositivos.
 - 🌐 **Publicação de Projetos**: Criação de uma conta no **GitHub** para armazenar o código na nuvem e publicação do projeto finalizado na web, permitindo que outros o visualizem.
 
-[![image](https://github.com/user-attachments/assets/98c4ff7d-f49a-443f-89c6-ce11d2877d21)](https://kauemonteiro09.github.io/alura-portfolio-2/)
+[![image](https://github.com/user-attachments/assets/98c4ff7d-f49a-443f-89c6-ce11d2877d21)](https://02-html-css-portfolio-2.vercel.app/)
 
 ## 🛠️ Tecnologias Utilizadas
 
